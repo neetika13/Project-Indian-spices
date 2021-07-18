@@ -101,21 +101,10 @@ h1, h2  {
 }
 
 #right-about{
-    padding-top: 150px;
+    padding-top: 130px;
     width: 50%;
     float: right;
-    
 }
-
-#left-image1{
-    background : url('../images/farm-image.jpg') no-repeat center center;
-    width: 10%;
-    position: absolute;
-    height:  15%;
-    margin: 0 auto;
-    overflow: hidden;
- 
-   }
 
    
 hr {
@@ -135,33 +124,37 @@ hr {
 .left-about-heading h2{
     width: 60%;
     padding-top: 130px;
-       
-        }
+ }
 
 
  .left-about-heading p{
     text-align:left;
-    
-    
-        }  
-
-        #left-image2{
+     }  
+#left-image1{
+        background : url('../images/farm-image.jpg') no-repeat center center;
+        width: 10%;
+        position: absolute;
+        height:  15%;
+        margin: 0 auto;
+        overflow: hidden;
+            }
+#left-image2{
             background : url('../images/sun-drying.jpg') no-repeat center center;
             width: 10%;
             position: absolute;
             height:  15%;
             margin: 0 auto;
-            overflow: hidden;
+            overflow: hidden;}
         
 
 
- .right-about-heading{
+.right-about-heading {
     width: 60%;
     float: right;
     line-height: 50px;
     clear: both;
     margin-bottom: 50px;
-                }         
+ }         
         
 .right-about-heading h2{
     text-align: left;
@@ -173,5 +166,20 @@ hr {
             text-align:right;
         }  
 
+        #right-image1{
+            background : url('../images/grinding-image.jpg') no-repeat center center;
+            width: 10%;
+            position: absolute;
+            height:  15%;
+            margin: 0 auto;
+            overflow: hidden;
+                }
+    #right-image2{
+                background : url('../images/women-farmer.jfif') no-repeat center center;
+                width: 10%;
+                position: absolute;
+                height:  15%;
+                margin: 0 auto;
+                overflow: hidden;}
     
 
