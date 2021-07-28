@@ -80,5 +80,60 @@ border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
+}
+
+
+/*webpage content, Ayurveda, spices, benfits, history */
+
+.banner{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin-top: 270px;
+    /* left: 30px; */
+    position: absolute;
+    color: orange;
+}
+
+.web-text{
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.web-text h1 {
+    font-size: 40px;
+    width: 100%;
+    position:relative;
+    margin-left:40px;
+    text-align: center;
+    font-family:'Oswald';
+}
+
+.web-text h2 {
+    font-size: 25px;
+    width: 100%;
+	margin-left:40px;
+    /*position:relative;
+    margin-left:40px;
+    text-align: center;*/
+    font-family:'Oswald';
+}
+
+.web-text p {
+    width: 100%;
+    font-size:18px;
+    margin-top:50px;
+    line-height: 25px;
+    color: grey;
+    font-family: 'lato';
 
 }
+
+.web-text img{
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    }
