@@ -1,185 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 2000;
-    color: #cca31b;
+body{
+    margin: 0;
+    padding: 0;
+    background:lightyellow;
+    text-align: justify;
+    
 }
 
 /* headings and logo */
-
-h1, h2  {
-    font-family: Ostwald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: blue;
-    margin: 50px; 
-}
- 
-#cover-text h2{
-    font-family: Ostwald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: blue;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    bottom: 0;
+.topbox{
+    z-index: 3;
+    position:fixed; 
+    height: 270px;
     width: 100%;
-    padding: 20px
-}
-
-#background-image {
-    
-    background: url('../images/background3.jpg') no-repeat center center;
-    width: 100%;
-    height: 30%;
-    position: absolute;
-    left: 0;
-    top: 0;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)), url('../images/Background.jpg') no-repeat;
     background-size: cover;
-}
-
-#cover-text h3 {
-    font-weight:2000;
-    font-style: italic;
-    font-size: 1cm;
-    text-align: left;
-    margin-top: 0px;
-    font-family: cursive;
-    color: rgb(65, 225, 113);
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    font-family: Ostwald, sans-serif;
-    text-transform: uppercase;
-    color: blue;
-}
-#menu, #logo{
-    line-height: 75px;
-}
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a{
-    text-decoration:none;
-    color:rgb(197, 18, 18);
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-.active {
-    border-bottom: 1px solid #3a3a3a; 
-}
-
-<!-- Content-page-->
-#about-us{
-    height: 600px;
-}
-
-
-
-#left-about{
-    padding-top: 130px;
-    width: 50%;
-    float: left;
-}
-
-#right-about{
-    padding-top: 130px;
-    width: 50%;
-    float: right;
-}
-
-   
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 2px 0;
-}
-            
-.left-about-heading{
-    width: 60%;
-    float: right;
-    line-height: 50px;
-    clear: both;
-    margin-bottom: 50px;
+    overflow: hidden;    
     }
 
-.left-about-heading h2{
-    width: 60%;
-    padding-top: 130px;
- }
+.topbox h1{
+    position: absolute;
+    color: #ffffff;  
+    font-size: 50px;
+    line-height: 0.9;  
+    font-family: 'Oswald';
+    top: 35%;
+    margin-left : 150px;
+    left: 36%;
+    }
 
-
- .left-about-heading p{
-    text-align:left;
-     }  
-#left-image1{
-        background : url('../images/farm-image.jpg') no-repeat center center;
-        width: 10%;
-        position: absolute;
-        height:  15%;
-        margin: 0 auto;
-        overflow: hidden;
-            }
-#left-image2{
-            background : url('../images/sun-drying.jpg') no-repeat center center;
-            width: 10%;
-            position: absolute;
-            height:  15%;
-            margin: 0 auto;
-            overflow: hidden;}
-        
-
-
-.right-about-heading {
-    width: 60%;
+.topbox ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Oswald';
+    font-size: large;
+  }
+.topbox li{
     float: right;
-    line-height: 50px;
-    clear: both;
-    margin-bottom: 50px;
- }         
-        
-.right-about-heading h2{
-    text-align: left;
-    width: 60%;
-    padding-top: 130px;
-         }   
-        
-.right-about-heading p{
-            text-align:right;
-        }  
+    position: relative;
 
-        #right-image1{
-            background : url('../images/grinding-image.jpg') no-repeat center center;
-            width: 10%;
-            position: absolute;
-            height:  15%;
-            margin: 0 auto;
-            overflow: hidden;
-                }
-    #right-image2{
-                background : url('../images/women-farmer.jfif') no-repeat center center;
-                width: 10%;
-                position: absolute;
-                height:  15%;
-                margin: 0 auto;
-                overflow: hidden;}
-    
+}
 
+.topbox li a{  display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+.topbox li a:hover{background-color: rgb(151, 126, 43);}
+
+.saying{
+    position: absolute;
+    color: #ffffff;  
+    font-size: 22px;
+    font-family: 'Oswald';
+    top: 30%;
+    justify-content: left;
+    left: 5%;
+    font-style: italic;
+}
+
+.hypocratespic{
+width: 100px;
+position: absolute;
+top:60%;
+left:5%;
+border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+
+}
