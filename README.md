@@ -17,6 +17,8 @@ This site contains several features
     - The page includes home page, detailed spice description (about spices), contact and sign up pages that are identical on all the pages
     - this section allowes for easy navigation across all of the devices
 
+![Nav bar](/images/navbar.png)
+
 - __Home Page__
   - This page contains xyz
   - History of spices
