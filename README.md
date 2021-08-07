@@ -1,3 +1,4 @@
+
 # Spice up your life
 
 This site is targeting people who are foodies and at the same time are health concious. Spices are known to have medicinal and healing properties. They can boost methabolism and promote weight loss, but also fight diabetes, heart conditions, arthritis and even cancer. Nature has given us these wonderful herbs that can improve our quality of life when included in our diet regularly, while at the same time making our food more tasty and enjoyable.
@@ -17,7 +18,7 @@ This site contains several features
     - The page includes home page, detailed spice description (about spices), contact and sign up pages that are identical on all the pages
     - this section allowes for easy navigation across all of the devices
 
-![Nav bar](/assets/images/navbar.png)
+![navbar](https://user-images.githubusercontent.com/18726183/128607140-4d70cafe-a510-4af9-aeb0-c1d12bf50a7f.PNG)
 
 - __Home Page__
   - This page contains xyz
