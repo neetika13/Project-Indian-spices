@@ -21,9 +21,11 @@ This site contains several features
 ![navbar](https://user-images.githubusercontent.com/18726183/128607140-4d70cafe-a510-4af9-aeb0-c1d12bf50a7f.PNG)
 
 - __Home Page__
-  - This page contains xyz
-  - History of spices
-  - Use of spices
+  - This page contains description of ayurveda as a science and art of healing through spices
+  - History of spice uses
+  - High level health benefits
+  - Nutrition information
+  - Information how spices are grown and harvested
 
 
 - __About Spices__
