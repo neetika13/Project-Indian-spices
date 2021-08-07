@@ -90,12 +90,11 @@ border-top-left-radius: 50% 50%;
 
 .banner{
     z-index: 2;
-    width: 100%;
-    height: 100%;
     margin-top: 270px;
     /* left: 30px; */
     position: absolute;
     color: orange;
+    background-color: aqua;
     
 }
 
@@ -182,6 +181,9 @@ border-top-left-radius: 50% 50%;
         float: left;
         margin-left: 5%;
         margin-right: 5%;
+        position: relative;
+        background-color: blueviolet;
+        
         
        
     }
@@ -246,6 +248,7 @@ border-top-left-radius: 50% 50%;
     }
 }
 
+
 /* About spices page */
 .AboutSpices {
     position: absolute;
@@ -254,7 +257,7 @@ border-top-left-radius: 50% 50%;
     width: 100%;
     text-align: center;
     height:125px;
-    ;
+    background-color: blue;
  }
 
  .SpicesTextLeft{
@@ -265,11 +268,12 @@ border-top-left-radius: 50% 50%;
     width: 48%;
     text-align: center;
     font-family: "Oswald";
-    ;
+    background-color: blueviolet;
+    margin-bottom: 10px;
  }
 
  .SpicesTextLeft p{
-    height: 100px;
+    height: 100%;
      font-size:21px;
     padding:8px;
     background-color: cadetblue;
@@ -282,6 +286,31 @@ border-top-left-radius: 50% 50%;
     background-color: chocolate;
  }
 
+ .SpicesTextRight{
+    position: absolute;
+    margin-top: 397px;
+    z-index: 1;
+    margin-left: 52%;
+    width: 48%;
+    text-align: center;
+    font-family: "Oswald";
+    background-color: blueviolet;
+    margin-bottom: 10px;
+ }
+
+ .SpicesTextRight p{
+    height: 100%;
+     font-size:21px;
+    padding:8px;
+    background-color: cadetblue;
+ }
+
+ .SpicesTextRight img{
+    width: 50%;
+    height: auto;
+   border-radius: 30%;
+   background-color: chocolate;
+}
 /* footer  social media networks 
 
 footer{
@@ -297,6 +326,7 @@ footer{
   text-align: center;
   text-decoration: none;
   color: rgb(131, 119, 238);
+  
  } 
 
 
@@ -317,3 +347,76 @@ footer{
      color: #100ce0;
     }
      
+  /* Form */
+
+  .form-section {
+    position: absolute;
+    margin-top: 270px;
+    clear: left;
+    background: url('/assets/images/spices_empty.jpg');
+    background-size: cover;
+    
+    background-position: center;
+    height: 800px;
+    width:100%;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup-form {
+    margin: 150px 5% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 330px;
+    position: absolute;
+    left: 10%;
+    padding: 50px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    margin: 2px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #e2651c;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #e2651c;
+}
+
+.finalmessage {
+    
+    margin-top: 1070px;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    background-color: blueviolet;
+
+}

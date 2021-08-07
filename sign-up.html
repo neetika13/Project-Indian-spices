@@ -15,7 +15,7 @@
 </head>
 <body>
      <!-- Header -->
-    <header>
+     <header>
         <div class = "topbox">
             <h1>Spices and Us</h1>
     
@@ -27,14 +27,66 @@
     <!--Nav bar-->
             <ul>
            
-             <li><a href="sign-up.html">Sign-Up</a></li>
+             <li><a href="sign-up.html" class = "active">Sign-Up</a></li>
              <li><a href="contact.html">Contact</a></li>
              <li> <a href = "about-spices.html" >About Spices</About></a></li>
-             <li> <a href = "index.html" class = "active">Home</a></li>
+             <li> <a href = "index.html">Home</a></li>
             </ul>
 
         </div>
     </header>
+
+    <div class="form-section">
+        <form class="signup-form" method="POST" Onsubmit="return false" >
+            <h2> sign up stay updated! </h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input" type="text" name="first_name" required />
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <label for="recipes">Recipes</label>
+            <input id="recipes" type="radio" name ="signup for what" value="recipes" required/>
+            <label for="shop">To Purchase</label>
+            <input id="shop" type="radio" name="signup for what" value="trail"/>
+            <label for="both">Both</label>
+            <input id="both" type="radio" name="running_preference" value="both"/>
+            <input class="join-button"  type="submit" value="Stay Strong"/>
+            
+        </form>
+    </div> 
+
+    <div class = "finalmessage">
+        <p>To connect or get more information visit us on social media
+    </div>
+
+    <div id="footer">
+        <ul class = "social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul> 
+    
+    </div>
+    
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    
+
+
 
 
 </body>
