@@ -95,7 +95,7 @@ border-top-left-radius: 50% 50%;
     /* left: 30px; */
     position: absolute;
     color: orange;
-    background-color: plum;
+    
 }
 
 .web-text{
@@ -103,7 +103,7 @@ border-top-left-radius: 50% 50%;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: gold;
+    
 }
 
 .web-text h1 {
@@ -181,7 +181,7 @@ border-top-left-radius: 50% 50%;
         float: left;
         margin-left: 5%;
         margin-right: 5%;
-        background-color: lightcoral;
+        
        
     }
  .left-about{
@@ -189,7 +189,7 @@ border-top-left-radius: 50% 50%;
         font-size:21px;
         color: grey;
         font-family: 'lato';
-        background-color: lightblue;
+        
          }
 
  .left-about-heading h2{
@@ -201,7 +201,7 @@ border-top-left-radius: 50% 50%;
             font-family:'Oswald';
             color: orange; 
             text-align: center;
-           background-color: rebeccapurple;    
+              
         }
  .left-about-heading img{
             width: 25% ;
@@ -225,7 +225,7 @@ border-top-left-radius: 50% 50%;
         margin-bottom: 50px;
         font-family:'Oswald';
         color: orange; 
-    background-color: red;}
+    }
         
 
     /* Media Queries: Tablet Landscape */
@@ -260,7 +260,7 @@ border-top-left-radius: 50% 50%;
     width: 100%;
     text-align: center;
     height:125px;
-    background-color: blue;
+    ;
  }
 
  .SpicesTextLeft{
@@ -271,7 +271,7 @@ border-top-left-radius: 50% 50%;
     width: 48%;
     text-align: center;
     font-family: "Oswald";
-    background-color: blueviolet;
+    ;
  }
 
  .SpicesTextLeft p{
@@ -296,7 +296,7 @@ footer{
        }*/
 #footer {
   
-  background-color: rgb(0, 105, 211);
+  
   /* border: 3px solid #8AC007; */
 
   font-size: 25px;
@@ -309,7 +309,7 @@ footer{
  .social-networks{
      text-align:center;
      
-     background-color: tomato;
+     
          }
 
  .social-networks > li{
@@ -321,5 +321,5 @@ footer{
      
      padding: 3%;
      color: #100ce0;
-    background-color: yellow;}
+    }
      
