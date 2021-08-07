@@ -8,6 +8,8 @@ body{
     
 }
 
+img { max-width: 100%; height: auto; }
+
 /* headings and logo */
 .topbox{
     z-index: 3;
@@ -92,6 +94,7 @@ border-top-left-radius: 50% 50%;
     /* left: 30px; */
     position: absolute;
     color: orange;
+    background-color: plum;
 }
 
 .web-text{
@@ -99,6 +102,7 @@ border-top-left-radius: 50% 50%;
     float: left;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: gold;
 }
 
 .web-text h1 {
@@ -127,19 +131,112 @@ border-top-left-radius: 50% 50%;
     line-height: 25px;
     color: grey;
     font-family: 'lato';
-
 }
 
 .web-text img{
-    width: 50%;
+    width: 40%;
     margin-top: 0%;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-right: 25%;
+    border-radius: 5%;
     }
 
-
-
+ .vasco{
+        
+        
+        box-sizing: border-box;
+        display: flex;
+        background-color: mediumaquamarine;
+        }
     
+ .vasco-image {
+        text-align:center;
+        width: 50%;
+        display:block;
+        margin:auto;                
+        background-color: hotpink;
+             }
+
+ .vasco-image img { 
+       
+       border-radius:8px;
+       width:80%;
+       float: left;
+       margin-left: 10%;
+             
+       
+    }
+    
+    .vasco-text {
+        width: 50%;
+        background-color: green;
+    }
+    
+ .vasco-text p{
+        margin: 5 0 0 0;
+        padding: 2px 0 0;
+    }
+    
+    /*about the farm */
+
+  .details {
+        height: 100%;
+        width: 100%;
+        background-color: lightcoral;
+       
+    }
+ .left-about{
+        
+        
+        width: 100%;
+        height:100%;
+        font-size:21px;
+        margin: 30px 0 20px 40px;
+        color: grey;
+        font-family: 'lato';
+        background-color: lightblue;
+         }
+
+ .left-about-heading h2{
+            width: 100%;
+            /*line-height: 10px;*/
+            clear: both;
+            margin-bottom: 5x;
+            margin-top: 50px;
+            margin-left:0px;
+            font-family:'Oswald';
+            color: orange; 
+            text-align: center;
+           background-color: rebeccapurple;    
+        }
+ .left-about-heading img{
+            width: 25% ;
+            /*position: absolute;*/
+            height: 20%;
+            margin: 10px;
+            border-radius: 5%;
+            float:left;}
+            
+ .left-about-heading p{
+            width: 40%;
+        font-size:21px;
+        margin: 30px 0 30px 0px;
+        line-height: 25px;
+        color: grey;
+        font-family: 'lato';
+        margin-left: 30%;
+        margin-right:30%;
+    }
+  .left-about-heading2 h2{
+        width: 60%;
+        line-height: 10px;
+        clear: both;
+        margin-bottom: 50px;
+        font-family:'Oswald';
+        color: orange; 
+    background-color: red;}
+        
+
     /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -151,3 +248,91 @@ border-top-left-radius: 50% 50%;
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+/* About spices page */
+.AboutSpices {
+    position: absolute;
+    margin-top: 270px;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    height:125px;
+    background-color: blue;
+ }
+
+ .SpicesTextLeft{
+    position: absolute;
+    margin-top: 397px;
+    z-index: 1;
+    margin-right: 52%;
+    width: 48%;
+    text-align: center;
+    font-family: "Oswald";
+    background-color: blueviolet;
+ }
+
+ .SpicesTextLeft p{
+    height: 100px;
+     font-size:21px;
+    padding:8px;
+    background-color: cadetblue;
+ }
+
+ .SpicesTextLeft img{
+     width: 50%;
+     height: auto;
+    border-radius: 30%;
+    background-color: chocolate;
+ }
+
+/* footer  social media networks 
+
+footer{
+    height: 50%;
+    background-color: saddlebrown; 
+       }*/
+#footer {
+  
+  background-color: slategray;
+  /* border: 3px solid #8AC007; */
+
+  width: 100%;
+  height: 60%;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+ } 
+
+
+ .social-networks{
+     text-align:center;
+     
+     background-color: tomato;
+         }
+
+ .social-networks > li{
+     display: inline;
+ }
+ .social-networks i {
+     font-size: 160%;
+   
+     margin: 1%;
+     padding: 4%;
+     color: #100ce0;
+    background-color: yellow;}
+     
