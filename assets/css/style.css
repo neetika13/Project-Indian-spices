@@ -14,7 +14,7 @@ img { max-width: 100%; height: auto; }
 .topbox{
     z-index: 3;
     position:fixed; 
-    height: 30%;
+    height: 270px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -24,14 +24,15 @@ img { max-width: 100%; height: auto; }
     }
 
 .topbox h1{
-    position: absolute;
+    position:relative;
     color: #ffffff;  
     font-size: 50px;
     line-height: 0.9;  
     font-family: 'Oswald';
-    top: 35%;
-    margin-left : 150px;
-    left: 36%;
+    text-align: center;
+    top: 40%;
+        
+    
     }
 
 .topbox ul{
@@ -59,7 +60,7 @@ img { max-width: 100%; height: auto; }
     text-decoration: none;
 }
 
-.topbox li a:hover{background-color: rgb(151, 126, 43);}
+.topbox li a:hover{background-color: rgb(202, 168, 56);}
 
 .saying{
     position: absolute;
@@ -109,7 +110,6 @@ border-top-left-radius: 50% 50%;
     font-size: 40px;
     width: 100%;
     position:relative;
-    margin-left:40px;
     text-align: center;
     font-family:'Oswald';
 }
@@ -146,7 +146,6 @@ border-top-left-radius: 50% 50%;
         
         box-sizing: border-box;
         display: flex;
-        background-color: mediumaquamarine;
         }
     
  .vasco-image {
@@ -154,8 +153,7 @@ border-top-left-radius: 50% 50%;
         width: 50%;
         display:block;
         margin:auto;                
-        background-color: hotpink;
-             }
+        }
 
  .vasco-image img { 
        
@@ -169,8 +167,7 @@ border-top-left-radius: 50% 50%;
     
     .vasco-text {
         width: 50%;
-        background-color: green;
-    }
+        }
     
  .vasco-text p{
         margin: 5 0 0 0;
@@ -180,29 +177,26 @@ border-top-left-radius: 50% 50%;
     /*about the farm */
 
   .details {
-        height: 100%;
-        width: 100%;
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
         background-color: lightcoral;
        
     }
  .left-about{
-        
-        
-        width: 100%;
-        height:100%;
+          
         font-size:21px;
-        margin: 30px 0 20px 40px;
         color: grey;
         font-family: 'lato';
         background-color: lightblue;
          }
 
  .left-about-heading h2{
-            width: 100%;
             /*line-height: 10px;*/
             clear: both;
             margin-bottom: 5x;
-            margin-top: 50px;
+            margin-top: 10px;
             margin-left:0px;
             font-family:'Oswald';
             color: orange; 
@@ -218,14 +212,11 @@ border-top-left-radius: 50% 50%;
             float:left;}
             
  .left-about-heading p{
-            width: 40%;
         font-size:21px;
-        margin: 30px 0 30px 0px;
         line-height: 25px;
         color: grey;
         font-family: 'lato';
-        margin-left: 30%;
-        margin-right:30%;
+        
     }
   .left-about-heading2 h2{
         width: 60%;
@@ -305,17 +296,13 @@ footer{
        }*/
 #footer {
   
-  background-color: slategray;
+  background-color: rgb(0, 105, 211);
   /* border: 3px solid #8AC007; */
 
-  width: 100%;
-  height: 60%;
-  padding: 20px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
-  color: white;
+  color: rgb(131, 119, 238);
  } 
 
 
@@ -331,8 +318,8 @@ footer{
  .social-networks i {
      font-size: 160%;
    
-     margin: 1%;
-     padding: 4%;
+     
+     padding: 3%;
      color: #100ce0;
     background-color: yellow;}
      
