@@ -20,7 +20,8 @@ img { max-width: 100%; height: auto; }
     justify-content: center;
     background: linear-gradient(0deg, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)), url('../images/Background.jpg') no-repeat;
     background-size: cover;
-    overflow: hidden;    
+    overflow: hidden;
+      
     }
 
 .topbox h1{
@@ -115,7 +116,7 @@ border-top-left-radius: 50% 50%;
 }
 
 .web-text h2 {
-    font-size: 25px;
+    font-size: 30px;
     width: 100%;
 	
     /*position:relative;*/
@@ -126,7 +127,7 @@ border-top-left-radius: 50% 50%;
 
 .web-text p {
     width: 100%;
-    font-size:18px;
+    font-size:21px;
     margin-top:50px;
     line-height: 25px;
     color: grey;
@@ -194,6 +195,7 @@ border-top-left-radius: 50% 50%;
 
  .left-about-heading h2{
             /*line-height: 10px;*/
+            font-size:30px;
             clear: both;
             margin-bottom: 5x;
             margin-top: 10px;
@@ -204,7 +206,7 @@ border-top-left-radius: 50% 50%;
               
         }
  .left-about-heading img{
-            width: 25% ;
+            width: 30% ;
             /*position: absolute;*/
             height: 20%;
             margin: 10px;
@@ -217,14 +219,6 @@ border-top-left-radius: 50% 50%;
         color: grey;
         font-family: 'lato';
         
-    }
-  .left-about-heading2 h2{
-        width: 60%;
-        line-height: 10px;
-        clear: both;
-        margin-bottom: 50px;
-        font-family:'Oswald';
-        color: orange; 
     }
         
 
