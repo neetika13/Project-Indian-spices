@@ -136,7 +136,7 @@ border-top-left-radius: 50% 50%;
 .web-text img{
     width: 40%;
     margin-top: 0%;
-    margin-left: 30%;
+    margin-left: 33%;
     margin-right: 25%;
     border-radius: 5%;
     }
@@ -144,11 +144,9 @@ border-top-left-radius: 50% 50%;
      
  .vasco-image {
         text-align:center;
-        display:block;
-        margin:auto;                
+        border-radius: 5%;
         }
- 
-    
+       
  .vasco-text p{
     width: 100%;
     font-size:21px;
@@ -167,7 +165,6 @@ border-top-left-radius: 50% 50%;
         margin-right: 5%;
         position: relative;
         background-color: blueviolet;
-        
         
        
     }
@@ -192,7 +189,7 @@ border-top-left-radius: 50% 50%;
               
         }
  .left-about-heading img{
-            width: 30% ;
+            width: 20% ;
             /*position: absolute;*/
             height: 20%;
             margin: 10px;
@@ -201,10 +198,11 @@ border-top-left-radius: 50% 50%;
             
  .left-about-heading p{
         font-size:21px;
+        
         line-height: 25px;
         color: grey;
         font-family: 'lato';
-        
+        background-color: #e08b0c;
     }
         
 
