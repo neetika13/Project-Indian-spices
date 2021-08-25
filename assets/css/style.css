@@ -60,15 +60,15 @@ img { max-width: 100%; height: auto; }
 }
 
 .topbox li a:hover{background-color: rgb(202, 168, 56);}
-.topbox > .active > a { 
-    background-color: orange ; 
+.topbox li a.active { 
+    background-color: rgb(173, 194, 197) ; 
 }
 
 .saying{
     position: absolute;
     color: #ffffff;  
     
-    font-size:1vw;
+    font-size:25px;
     font-family: 'Oswald';
     top: 25%;
     justify-content: left;
@@ -192,7 +192,7 @@ border-top-left-radius: 50% 50%;
               
         }
  .left-about-heading img{
-            width: 20% ;
+            width: 30% ;
             /*position: absolute;*/
             height: 20%;
             margin: 10px;
@@ -221,14 +221,33 @@ border-top-left-radius: 50% 50%;
 }
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
     
     .hypocratespic{
                
-               float: centre;
+        display:none;
     }
+ 
+     br{ display: none;}
 
-   
+
+     .left-about-heading img{
+        width: 50% ;
+        }
+    .web-text img{
+            width: 80%;
+            margin-left:10%;
+            margin-right:10%;}
+    .vasco-image {width: 80%;
+            margin-left:10%;
+            margin-right:10%;}
+
+   .topbox li a:not(:first-child) {display: none;}
+
+   .topbox li a.icon {
+    float: right;
+    display: block;}
+
     }
 
 
