@@ -60,13 +60,17 @@ img { max-width: 100%; height: auto; }
 }
 
 .topbox li a:hover{background-color: rgb(202, 168, 56);}
+.topbox > .active > a { 
+    background-color: orange ; 
+}
 
 .saying{
     position: absolute;
     color: #ffffff;  
-    font-size: 22px;
+    
+    font-size:1vw;
     font-family: 'Oswald';
-    top: 30%;
+    top: 25%;
     justify-content: left;
     left: 5%;
     font-style: italic;
@@ -75,7 +79,8 @@ img { max-width: 100%; height: auto; }
 .hypocratespic{
 width: 100px;
 position: absolute;
-top:60%;
+
+top:53%;
 left:5%;
 border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
@@ -203,29 +208,29 @@ border-top-left-radius: 50% 50%;
             }
         
 
-    /* Media Queries: Tablet Landscape */
+    /* Media Queries: Tablet Landscape 
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 
- /*Media Queries: Tabled Portrait */
+ Media Queries: Tabled Portrait 
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
 
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 400px) {
+    
+    .hypocratespic{
+               
+               float: centre;
     }
-}
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
+   
     }
-}
+
 
 
 /* About spices page */
