@@ -92,21 +92,18 @@ border-top-left-radius: 50% 50%;
 /*webpage content, Ayurveda, spices, benfits, history */
 
 .banner{
-    z-index: 2;
+   /* z-index: 2;*/
     margin-top: 270px;
-    /* left: 30px; */
     position: absolute;
     color: orange;
-   
-    
+    background-color: blue;
 }
 
 .web-text{
-    width: 90%;
-    float: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    background-color: blueviolet;
 }
 
 .web-text h1 {
@@ -162,15 +159,14 @@ border-top-left-radius: 50% 50%;
     /*about the farm */
 
   .details {
-        width: 90%;
         float: left;
-        margin-left: 5%;
-        margin-right: 5%;
         position: relative;
-       
-        
-       
-    }
+        width: 70%;
+        margin-left:15%;
+        margin-right:15%;
+        background-color: chartreuse;
+           }
+           
  .left-about{
           
         font-size:21px;
