@@ -22,7 +22,9 @@ body{
 
 .topbox h1{
     position:relative;
-    color: #ffffff;  
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
     font-size: 50px;
     line-height: 0.9;  
     font-family: 'Oswald';
@@ -109,10 +111,7 @@ border-bottom-left-radius: 50% 50%;
 .web-text h2 {
     font-size: 30px;
     width: 100%;
-	
-    /*position:relative;*/
-
-    text-align: center;
+	text-align: center;
     font-family:'Oswald';
 }
 
@@ -135,8 +134,8 @@ border-bottom-left-radius: 50% 50%;
 
      
  .vasco-image {
-        text-align:center;
-        border-radius: 5%;
+    text-align:center;
+    border-radius: 5%;
         }
        
  .vasco-text p{
@@ -151,19 +150,18 @@ border-bottom-left-radius: 50% 50%;
     /*about the farm */
 
   .details {
-        float: left;
-        position: relative;
-        width: 70%;
-        margin-left:15%;
-        margin-right:15%;
-        
-           }
+    float: left;
+    position: relative;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+                   }
 
  .left-about{
-          
-        font-size:21px;
-        color: grey;
-        font-family: 'lato';
+       
+    font-size:21px;
+    color: grey;
+    font-family: 'lato';
         
          }
 
@@ -216,82 +214,93 @@ border-bottom-left-radius: 50% 50%;
 
 
 /* About spices page */
-.AboutSpices {
+
+
+/*.AboutSpices {
     position: absolute;
     margin-top: 270px;
-    z-index: 10;
+    position: absolute;
+    color: orange;
     width: 100%;
     text-align: center;
-    height:125px;
     background-color: cornflowerblue;
-
-    
-    
- }
+    font-size: 20px 
+    /* z-index: 10; */
+ 
 
  .SpicesTextLeft{
-    position: absolute;
-    margin-top: 397px;
+    margin-top: 100px;
+    margin-left: 10%;
     z-index: 1;
-    margin-right: 52%;
-    width: 48%;
+    width: 35%;
     text-align: center;
     font-family: "Oswald";
-      margin-bottom: 10px;
+    font-size: 30px;
+    background-color: blue;
  }
 
  .SpicesTextLeft p{
-    height: 100%;
-     font-size:21px;
-    padding:8px;
- 
- }
+    font-size:21px;
+    padding-top: 5%;
+    line-height: 25px;
+    color: grey;
+    font-family: 'lato';
+  }
 
  .SpicesTextLeft img{
      width: 50%;
      height: auto;
     border-radius: 30%;
     background-color: chocolate;
- }
+ } 
 
- .SpicesTextRight{
-    position: absolute;
-    margin-top: 397px;
+ /*.SpicesTextRight{
+
+    margin-top: 100px;
     z-index: 1;
-    margin-left: 52%;
-    width: 48%;
+    right: 50px;
+    margin-right:10%;
+    width: 35%;
     text-align: center;
     font-family: "Oswald";
     margin-bottom: 10px;
- }
+    font-size: 30px;
+    background-color: pink;
+ }*/
 
  .SpicesTextRight p{
     height: 100%;
     font-size:21px;
-    padding:8px;
+    padding-top: 5%;
+    line-height: 25px;
+    color: grey;
+    font-family: 'lato';
   }
 
  .SpicesTextRight img{
     width: 50%;
     height: auto;
-   border-radius: 30%;
-   background-color: chocolate;
-}
+    border-radius: 30%;
+    background-color: chocolate;
+ }
+
 /* footer  social media networks 
 
-footer{
     height: 50%;
-    background-color: saddlebrown; 
-       }*/
+   
 
-  /* border: 3px solid #8AC007; */
+   .SpicesTextLeft, .SpicesTextRight
+   {margin-top: 200px;
+text-align: center; 
+}*/
 
   #footer {
-  font-size: 25px;
-  text-align: center;
-  text-decoration: none;
-  color: rgb(131, 119, 238);
-   } 
+    font-size: 25px;
+    text-align: center;
+    bottom: 0;
+    height: 50%;
+     } 
+   
 
  .social-networks{
      text-align:center;
@@ -344,8 +353,7 @@ footer{
     margin: 2px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    
-}
+    }
 
 .text-input:hover {
     border-color: #f16c6b;
@@ -432,4 +440,21 @@ br{ display: none;
     justify-content: centre;
     right: 5%;
 }
+
+.AboutSpices
+{
+    width: 100%;
+    
+    padding: 0;
+}
+.SpicesTextLeft,.SpicesTextRight {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+.SpicesTextRight img, .SpicesTextLeft img{
+    width: 100%;
+}
+
 }
