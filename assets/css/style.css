@@ -5,15 +5,12 @@ body{
     padding: 0;
     background:lightyellow;
     text-align: justify;
-    
-}
-
-img { max-width: 100%; height: auto; }
+    }
 
 /* headings and logo */
 .topbox{
     z-index: 1;
-    position:relative; 
+    position:fixed; 
     height: 270px;
     width: 100%;
     /*align-items: center;
@@ -66,7 +63,6 @@ img { max-width: 100%; height: auto; }
 .saying{
     position: absolute;
     color: #ffffff;  
-    
     font-size:25px;
     font-family: 'Oswald';
     top: 25%;
@@ -78,13 +74,12 @@ img { max-width: 100%; height: auto; }
 .hypocratespic{
 width: 100px;
 position: absolute;
-
 top:53%;
 left:5%;
 border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
+border-top-right-radius: 50% 50%;
+border-bottom-right-radius: 50% 50%;
+border-bottom-left-radius: 50% 50%;
 }
 
 
@@ -92,11 +87,10 @@ border-top-left-radius: 50% 50%;
 
 .banner{
    /* z-index: 2;*/
-    margin-top: 100px;
+    margin-top: 270px;
     position: absolute;
     color: orange;
-   
-}
+   }
 
 .web-text{
     width: 70%;
@@ -183,8 +177,8 @@ border-top-left-radius: 50% 50%;
             font-family:'Oswald';
             color: orange; 
             text-align: center;
-              
-        }
+                    }
+
  .left-about-heading img{
             width: 30% ;
             /*position: absolute;*/
@@ -215,34 +209,9 @@ border-top-left-radius: 50% 50%;
 }
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 900px) {
+
+
     
-    .hypocratespic{
-               
-        display:none;
-    }
- 
-     br{ display: none;}
-
-
-     .left-about-heading img{
-        width: 50% ;
-        }
-    .web-text img{
-            width: 80%;
-            margin-left:10%;
-            margin-right:10%;}
-    .vasco-image {width: 80%;
-            margin-left:10%;
-            margin-right:10%;}
-
-   .topbox li a:not(:first-child) {display: none;}
-
-   .topbox li a.icon {
-    float: right;
-    display: block;}
-
-    }
 
 
 
@@ -250,10 +219,13 @@ border-top-left-radius: 50% 50%;
 .AboutSpices {
     position: absolute;
     margin-top: 270px;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     text-align: center;
     height:125px;
+    background-color: cornflowerblue;
+
+    
     
  }
 
@@ -265,8 +237,7 @@ border-top-left-radius: 50% 50%;
     width: 48%;
     text-align: center;
     font-family: "Oswald";
-    
-    margin-bottom: 10px;
+      margin-bottom: 10px;
  }
 
  .SpicesTextLeft p{
@@ -291,16 +262,14 @@ border-top-left-radius: 50% 50%;
     width: 48%;
     text-align: center;
     font-family: "Oswald";
-    
     margin-bottom: 10px;
  }
 
  .SpicesTextRight p{
     height: 100%;
-     font-size:21px;
+    font-size:21px;
     padding:8px;
- 
- }
+  }
 
  .SpicesTextRight img{
     width: 50%;
@@ -314,34 +283,27 @@ footer{
     height: 50%;
     background-color: saddlebrown; 
        }*/
-#footer {
-  
-  
+
   /* border: 3px solid #8AC007; */
 
+  #footer {
   font-size: 25px;
   text-align: center;
   text-decoration: none;
   color: rgb(131, 119, 238);
-  
- } 
-
+   } 
 
  .social-networks{
      text-align:center;
-     
-     
-         }
-
+    }
+    
  .social-networks > li{
      display: inline;
  }
  .social-networks i {
-     font-size: 160%;
-   
-     
-     padding: 3%;
-     color: #e08b0c;
+    font-size: 160%;
+    padding: 3%;
+    color: #e08b0c;
     }
      
   /* Form */
@@ -350,9 +312,8 @@ footer{
     position: absolute;
     margin-top: 270px;
     clear: left;
-    background: url('/assets/images/spices_empty.jpg');
+    background: url(/assets/images/spices_empty.jpg);
     background-size: cover;
-    
     background-position: center;
     height: 800px;
     width:100%;
@@ -415,5 +376,60 @@ footer{
     margin-right: 5%;
     position: relative;
     background-color: blueviolet;
+}
 
+/* Responsive pages */
+
+@media screen and (max-width: 600px) {
+    
+.hypocratespic{
+    display:none;
+    }
+ 
+br{ display: none;
+    }
+
+.left-about-heading img{
+    width: 50% ;
+    }
+
+.web-text img{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    }
+
+.vasco-image {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+  }
+
+.topbox li a:not(:first-child) 
+   {display: none;}
+
+.topbox li a.icon {
+    float: right;
+    display: block;}
+
+.topbox {
+    height: 150px;
+    }
+
+.banner{
+   margin-top: 150px;
+   }
+
+.topbox h1{
+    font-size: 30px;
+    line-height: 0.6;  
+   }
+
+.saying{
+    font-size:15px;
+    font-family: 'Oswald';
+    margin-top: 10%;
+    justify-content: centre;
+    right: 5%;
+}
 }
