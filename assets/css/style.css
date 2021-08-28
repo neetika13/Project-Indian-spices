@@ -156,60 +156,39 @@ border-bottom-left-radius: 50% 50%;
                    }
 
  .left-about{
-       
-    font-size:21px;
+     font-size:21px;
     color: grey;
     font-family: 'lato';
-        
-         }
+               }
 
  .left-about-heading h2{
-            /*line-height: 10px;*/
-            font-size:30px;
-            clear: both;
-            margin-bottom: 5x;
-            margin-top: 10px;
-            margin-left:0px;
-            font-family:'Oswald';
-            color: orange; 
-            text-align: center;
+     /*line-height: 10px;*/
+    font-size:30px;
+    clear: both;
+    margin-bottom: 5x;
+    margin-top: 10px;
+    margin-left:0px;
+    font-family:'Oswald';
+    color: orange; 
+    text-align: center;
                     }
 
  .left-about-heading img{
-            width: 30% ;
-            /*position: absolute;*/
-            height: 20%;
-            margin: 10px;
-            border-radius: 5%;
-            float:left;}
+    width: 30% ;
+ /*position: absolute;*/
+    height: 20%;
+    margin: 10px;
+    border-radius: 5%;
+    float:left;}
             
  .left-about-heading p{
-        font-size:21px;
-         padding-top: 5%;
-        line-height: 25px;
-        color: grey;
-        font-family: 'lato';
+    font-size:21px;
+    padding-top: 5%;
+    line-height: 25px;
+    color: grey;
+    font-family: 'lato';
             }
-        
-
-    /* Media Queries: Tablet Landscape 
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-
- Media Queries: Tabled Portrait 
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
-
-/* For larger to medium screens size from 1200px wide and down */
-
-
-    
-
-
+  
 
 /* About spices page */
 
@@ -253,19 +232,7 @@ border-bottom-left-radius: 50% 50%;
     font-family: "Oswald";
     font-size: 25px;
     color: orange;
-
   }
-
-
-/* footer  social media networks 
-
-    height: 50%;
-   
-
-   .SpicesTextLeft, .SpicesTextRight
-   {margin-top: 200px;
-text-align: center; 
-}*/
 
   #footer {
     font-size: 25px;
@@ -294,7 +261,7 @@ text-align: center;
     position: relative;
     margin-top: 10px;
     clear: left;
-    background: url(/assets/images/spices_empty.jpg);
+    background: url(assets/images/spices_empty.jpg);
     background-size: cover;
     background-position: center;
     height: 800px;
