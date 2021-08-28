@@ -57,7 +57,7 @@ body{
     text-decoration: none;
 }
 
-.topbox li a:hover{background-color: rgb(202, 168, 56);}
+.topbox li a:hover{background-color: rgb(241, 194, 40);}
 .topbox li a.active { 
     background-color:orange ; 
 }
@@ -302,7 +302,7 @@ border-bottom-left-radius: 50% 50%;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #e2651c;
+    background-color: #ff6e19;
     color: #fafafa;
     display: block;
 }
@@ -326,7 +326,7 @@ border-bottom-left-radius: 50% 50%;
 
 /* Responsive pages */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     
 .hypocratespic{
     display:none;
@@ -367,9 +367,9 @@ br{ display: none;
    }
 
 .topbox h1{
-    font-size: 30px;
-    line-height: 0.6;
-    top:45%  
+    font-size: 20px;
+    line-height: 0.5;
+    top:40%  
    }
 
 .saying{
