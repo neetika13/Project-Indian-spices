@@ -10,8 +10,8 @@ body{
 /* headings and logo */
 .topbox{
     z-index: 1;
-    position:fixed; 
-    height: 270px;
+    position:relative; 
+    height: 280px;
     width: 100%;
     /*align-items: center;
     justify-content: center; */
@@ -29,7 +29,7 @@ body{
     line-height: 0.9;  
     font-family: 'Oswald';
     text-align: center;
-    top: 40%;
+    top: 50%;
            }
 
 .topbox ul{
@@ -89,8 +89,8 @@ border-bottom-left-radius: 50% 50%;
 
 .banner{
    /* z-index: 2;*/
-    margin-top: 270px;
-    position: absolute;
+    
+    position: relative;
     color: orange;
    }
 
@@ -216,16 +216,14 @@ border-bottom-left-radius: 50% 50%;
 /* About spices page */
 
 
-/*.AboutSpices {
-    position: absolute;
-    margin-top: 270px;
+AboutSpices {
     position: absolute;
     color: orange;
     width: 100%;
     text-align: center;
     background-color: cornflowerblue;
-    font-size: 20px 
-    /* z-index: 10; */
+    font-size: 20px;
+    }
  
 
  .SpicesTextLeft{
@@ -318,8 +316,8 @@ text-align: center;
   /* Form */
 
   .form-section {
-    position: absolute;
-    margin-top: 270px;
+    position: relative;
+    margin-top: 10px;
     clear: left;
     background: url(/assets/images/spices_empty.jpg);
     background-size: cover;
@@ -386,6 +384,46 @@ text-align: center;
     background-color: blueviolet;
 }
 
+.column {
+    position:relative;
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    flex: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: "Oswald";
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+  }
+.column img{
+    width: 70%;
+    height: auto;
+    border-radius: 30%;
+    background-color: chocolate;
+ }
+
+ .column p{
+    height: 100%;
+    font-size:21px;
+    padding-top: 5%;
+    line-height: 25px;
+    color: grey;
+    font-family: 'lato';
+  }
+
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 25px;
+  }
+
 /* Responsive pages */
 
 @media screen and (max-width: 600px) {
@@ -421,7 +459,7 @@ br{ display: none;
     display: block;}
 
 .topbox {
-    height: 150px;
+    height: 200px;
     }
 
 .banner{
@@ -430,13 +468,14 @@ br{ display: none;
 
 .topbox h1{
     font-size: 30px;
-    line-height: 0.6;  
+    line-height: 0.6;
+    top:45%  
    }
 
 .saying{
     font-size:15px;
     font-family: 'Oswald';
-    margin-top: 10%;
+    margin-top: 14%;
     justify-content: centre;
     right: 5%;
 }
