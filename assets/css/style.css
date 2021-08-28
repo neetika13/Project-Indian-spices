@@ -215,58 +215,28 @@ border-bottom-left-radius: 50% 50%;
 
 /* About spices page */
 
-
-AboutSpices {
-    position: absolute;
-    color: orange;
-    width: 100%;
-    text-align: center;
-    background-color: cornflowerblue;
-    font-size: 20px;
-    }
- 
-
- .SpicesTextLeft{
-    margin-top: 100px;
+.column {
+    position:relative;
+    float: left;
     margin-left: 10%;
-    z-index: 1;
     width: 35%;
-    text-align: center;
-    font-family: "Oswald";
-    font-size: 30px;
-    background-color: blue;
- }
-
- .SpicesTextLeft p{
-    font-size:21px;
-    padding-top: 5%;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
-  }
-
- .SpicesTextLeft img{
-     width: 50%;
-     height: auto;
-    border-radius: 30%;
-    background-color: chocolate;
- } 
-
- /*.SpicesTextRight{
-
-    margin-top: 100px;
-    z-index: 1;
-    right: 50px;
-    margin-right:10%;
-    width: 35%;
+    flex: 50%;
+    padding: 10px;
     text-align: center;
     font-family: "Oswald";
     margin-bottom: 10px;
-    font-size: 30px;
-    background-color: pink;
- }*/
+    font-size: 20px;
+    
+  }
 
- .SpicesTextRight p{
+.column img{
+    width: 60%;
+    height: auto;
+    border-radius: 30%;
+    background-color: chocolate;
+ }
+
+ .column p{
     height: 100%;
     font-size:21px;
     padding-top: 5%;
@@ -275,12 +245,19 @@ AboutSpices {
     font-family: 'lato';
   }
 
- .SpicesTextRight img{
-    width: 50%;
-    height: auto;
-    border-radius: 30%;
-    background-color: chocolate;
- }
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 25px;
+    color: orange;
+
+  }
+
 
 /* footer  social media networks 
 
@@ -384,45 +361,6 @@ text-align: center;
     background-color: blueviolet;
 }
 
-.column {
-    position:relative;
-    float: left;
-    margin-left: 5%;
-    width: 40%;
-    flex: 50%;
-    padding: 10px;
-    text-align: center;
-    font-family: "Oswald";
-    margin-bottom: 10px;
-    font-size: 20px;
-    
-  }
-.column img{
-    width: 70%;
-    height: auto;
-    border-radius: 30%;
-    background-color: chocolate;
- }
-
- .column p{
-    height: 100%;
-    font-size:21px;
-    padding-top: 5%;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
-  }
-
-  
-  /* Clear floats after the columns */
-  .row {
-    content: "";
-    display: table;
-    clear: both;
-    text-align: center;
-    font-family: "Oswald";
-    font-size: 25px;
-  }
 
 /* Responsive pages */
 
@@ -480,20 +418,19 @@ br{ display: none;
     right: 5%;
 }
 
-.AboutSpices
-{
-    width: 100%;
-    
-    padding: 0;
-}
-.SpicesTextLeft,.SpicesTextRight {
-    width: 100%;
+.column {
+    position:relative;
     float: left;
-    padding: 0;
-}
+    margin-left: 5%;
+    width: 80%;
+    flex: 80%;
+    padding: 10px;
+    text-align: center;
+    font-family: "Oswald";
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+  }
 
-.SpicesTextRight img, .SpicesTextLeft img{
-    width: 100%;
-}
 
 }
