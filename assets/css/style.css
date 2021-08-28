@@ -156,13 +156,12 @@ border-bottom-left-radius: 50% 50%;
                    }
 
  .left-about{
-     font-size:21px;
+    font-size:21px;
     color: grey;
     font-family: 'lato';
                }
 
  .left-about-heading h2{
-     /*line-height: 10px;*/
     font-size:30px;
     clear: both;
     margin-bottom: 5x;
@@ -175,8 +174,7 @@ border-bottom-left-radius: 50% 50%;
 
  .left-about-heading img{
     width: 30% ;
- /*position: absolute;*/
-    height: 20%;
+     height: 20%;
     margin: 10px;
     border-radius: 5%;
     float:left;}
@@ -203,8 +201,7 @@ border-bottom-left-radius: 50% 50%;
     font-family: "Oswald";
     margin-bottom: 10px;
     font-size: 20px;
-    
-  }
+      }
 
 .column img{
     width: 60%;
@@ -261,7 +258,7 @@ border-bottom-left-radius: 50% 50%;
     position: relative;
     margin-top: 10px;
     clear: left;
-    background: url(assets/images/spices_empty.jpg);
+    background: url('../images/spices_empty.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 800px;
