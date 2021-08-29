@@ -34,7 +34,19 @@ This site contains several features
 
 - __About Spices__
 
-  - This page contains description about most common spices in ayurveda with listed medicinal properties
+  - This page contains description about common spices in ayurveda with listed medicinal properties
+  - Images of different spices are shown, and decription of the following spices:
+    - Cardamom
+    - Cinnemon
+    - Cloves
+    - Ginger
+    - Bay leaves
+    - Star Anise
+    - Fennel Seeds
+    - Curcummin
+
+![image](https://user-images.githubusercontent.com/18726183/131258655-93d5935b-8ae9-405f-952d-e4f4b6fc0869.png)
+
 
 - __Contact page__
   - On this page we give the site's imaginary adress and contact details for comments and queries
