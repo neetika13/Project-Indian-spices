@@ -48,11 +48,18 @@ This site contains several features
 ![image](https://user-images.githubusercontent.com/18726183/131258655-93d5935b-8ae9-405f-952d-e4f4b6fc0869.png) 
 
 
-- __Contact page__
-  - On this page we give the site's imaginary adress and contact details for comments and queries
 
-- __Register page__
+- __Sign-up page__
   - On this page we let interested visitors to register for the newsletter and help them reach out to their local spice dealers, or in case of small businesses we let them connect to eachother or provide contact details to large dealerships and exporters from India
+
+![image](https://user-images.githubusercontent.com/18726183/131258846-048012c5-78b3-4d91-a54d-c1b87789e930.png)
+
+ -__Footer with social media links__
+ 
+ - On each page we provide links to social media where more information can be found
+ 
+ ![image](https://user-images.githubusercontent.com/18726183/131258897-a1d4cc4f-4465-4dcb-928b-0bb902e7a00a.png)
+
 
 ## Testing
 
