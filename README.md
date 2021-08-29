@@ -67,14 +67,22 @@ This site contains several features
 
 - HTML
     - WC3 validator results
-    - ![image](https://user-images.githubusercontent.com/18726183/131250724-741a0225-7b44-4aaf-9144-26b8d9d7a080.png)
+     ![image](https://user-images.githubusercontent.com/18726183/131259203-1f5a52af-5b60-42b5-8b6e-e187107f7c50.png)
 
-Answer taken from "https://newbedev.com/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do"
-The page will validate using the W3 Validator only when using <meta http-equiv="X-UA-Compatible" content="IE=Edge">. For other values it will throw the error: A meta element with an http-equiv attribute whose value is X-UA-Compatible must have a content attribute with the value IE=edge. In other words, if you have IE=edge,chrome=1 it will not validate. I ignore this error completely as modern browsers simply ignore this line of code
+    - The check showed no errors or warnings
 
 - CSS
     - Jigsaw validator results
-![image](https://user-images.githubusercontent.com/18726183/131250617-a6fdc20e-3390-4fde-94f6-eb2a2f959712.png)
+![image](https://user-images.githubusercontent.com/18726183/131259343-dc420ffa-1b2f-442c-b626-d8bf943dbe16.png)
+
+    - The check showed no errors or warnings
+    
+ - Acessibility score through the lighthouse
+
+![image](https://user-images.githubusercontent.com/18726183/131259529-2c7d9e41-9a49-49cf-b718-a18d4fbc3106.png)
+
+
+
 
 ## Bugs encountered
 
