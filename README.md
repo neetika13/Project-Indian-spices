@@ -22,7 +22,8 @@ This site contains several features
     - The page includes home page, detailed spice description (about spices), contact and sign up pages that are identical on all the pages
     - this section allowes for easy navigation across all of the devices
 
-![navbar](https://user-images.githubusercontent.com/18726183/128607140-4d70cafe-a510-4af9-aeb0-c1d12bf50a7f.PNG)
+![image](https://user-images.githubusercontent.com/18726183/131258599-d84eb5a9-9513-4d1d-a4d7-4da42a06380b.png)
+
 
 - __Home Page__
   - This page contains description of ayurveda as a science and art of healing through spices
