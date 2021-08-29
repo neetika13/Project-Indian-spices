@@ -76,6 +76,13 @@ This site contains several features
 ![image](https://user-images.githubusercontent.com/18726183/131259343-dc420ffa-1b2f-442c-b626-d8bf943dbe16.png)
 
     - The check showed no errors or warnings
+    
+ - Acessibility score through the lighthouse
+
+![image](https://user-images.githubusercontent.com/18726183/131259529-2c7d9e41-9a49-49cf-b718-a18d4fbc3106.png)
+
+
+
 
 ## Bugs encountered
 
