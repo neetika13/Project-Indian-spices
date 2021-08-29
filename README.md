@@ -88,6 +88,8 @@ This site contains several features
 
 Initially the idea was to have a navigation bar with image of spices floating on the top and images/text having to scroll below it which was initially not working. After longer search on the web I realized this works good with ```z-index``` property in CSS for the section I named topbox
 
+In the sign-up form data needs to be sent somwhere. I used the link that was shared previously in the love running example to send the data (https://formdump.codeinstitute.net/). I tried other approaches but I kept getting errors for the action that is supposed to be taken after data submission.
+
 ## Deployment
 
 This section describes how the code was deployed
