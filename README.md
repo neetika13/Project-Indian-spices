@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/18726183/130851108-cc0a0b24-50fa-4e3a-b911-90a7e36af3a3.png)
+![image](https://user-images.githubusercontent.com/18726183/131250829-c9de60e3-ef2a-4ea5-961f-eeff862cad14.png)
+
 
 # Spice up your life
 
