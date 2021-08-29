@@ -99,7 +99,7 @@ This section describes how the code was deployed
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  The live link can be found here - 
+  The live link can be found here - https://neetika13.github.io/Project-Indian-spices/
 
 ## Credits 
 
