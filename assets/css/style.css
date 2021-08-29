@@ -326,7 +326,7 @@ border-bottom-left-radius: 50% 50%;
 
 /* Responsive pages */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     
 .hypocratespic{
     display:none;
@@ -346,9 +346,7 @@ br{ display: none;
     }
 
 .vasco-image {
-    width: 80%;
-    margin-left:10%;
-    margin-right:10%;
+    width: 100%;
   }
 
 .topbox li a:not(:first-child) 
@@ -363,19 +361,19 @@ br{ display: none;
     }
 
 .banner{
-   margin-top: 150px;
+   margin-top: 50px;
    }
 
 .topbox h1{
-    font-size: 20px;
+    font-size: 25px;
     line-height: 0.5;
-    top:40%  
+    top:55%  
    }
 
 .saying{
     font-size:15px;
     font-family: 'Oswald';
-    margin-top: 14%;
+    margin-top: 100px;
     justify-content: centre;
     right: 5%;
 }
