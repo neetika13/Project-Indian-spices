@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/18726183/130851108-cc0a0b24-50fa-4e3a-b911-90a7e36af3a3.png)
+![image](https://user-images.githubusercontent.com/18726183/131250829-c9de60e3-ef2a-4ea5-961f-eeff862cad14.png)
+
 
 # Spice up your life
 
@@ -45,9 +46,14 @@ This site contains several features
 
 - HTML
     - WC3 validator results
+    - ![image](https://user-images.githubusercontent.com/18726183/131250724-741a0225-7b44-4aaf-9144-26b8d9d7a080.png)
+
+Answer taken from "https://newbedev.com/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do"
+The page will validate using the W3 Validator only when using <meta http-equiv="X-UA-Compatible" content="IE=Edge">. For other values it will throw the error: A meta element with an http-equiv attribute whose value is X-UA-Compatible must have a content attribute with the value IE=edge. In other words, if you have IE=edge,chrome=1 it will not validate. I ignore this error completely as modern browsers simply ignore this line of code
 
 - CSS
     - Jigsaw validator results
+![image](https://user-images.githubusercontent.com/18726183/131250617-a6fdc20e-3390-4fde-94f6-eb2a2f959712.png)
 
 ## Bugs encountered
 
