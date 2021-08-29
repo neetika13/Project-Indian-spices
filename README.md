@@ -48,6 +48,7 @@ This site contains several features
 
 - CSS
     - Jigsaw validator results
+![image](https://user-images.githubusercontent.com/18726183/131250617-a6fdc20e-3390-4fde-94f6-eb2a2f959712.png)
 
 ## Bugs encountered
 
