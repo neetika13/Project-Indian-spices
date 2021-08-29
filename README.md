@@ -45,7 +45,7 @@ This site contains several features
     - Fennel Seeds
     - Curcummin
 
-![image](https://user-images.githubusercontent.com/18726183/131258655-93d5935b-8ae9-405f-952d-e4f4b6fc0869.png)  width="500"
+![image](https://user-images.githubusercontent.com/18726183/131258655-93d5935b-8ae9-405f-952d-e4f4b6fc0869.png  width="200") 
 
 
 - __Contact page__
