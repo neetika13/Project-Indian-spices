@@ -20,7 +20,7 @@ This site contains several features
 - __Navigation bar__
     - Featured on all pages of the project. It contains a responsive image of the spices that floats on the top and above of the scrolling text
     - The page includes home page, detailed spice description (about spices), contact and sign up pages that are identical on all the pages
-    - this section allowes for easy navigation across all of the devices
+    - This section allowes for easy navigation across all of the devices
 
 ![image](https://user-images.githubusercontent.com/18726183/131258599-d84eb5a9-9513-4d1d-a4d7-4da42a06380b.png)
 
@@ -31,7 +31,6 @@ This site contains several features
   - High level health benefits
   - Nutrition information
   - Information how spices are grown and harvested
-
 
 - __About Spices__
 
