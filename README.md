@@ -54,7 +54,7 @@ This site contains several features
 
 ![image](https://user-images.githubusercontent.com/18726183/131258846-048012c5-78b3-4d91-a54d-c1b87789e930.png)
 
- -__Footer with social media links__
+ - __Footer with social media links__
  
  - On each page we provide links to social media where more information can be found
  
