@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/18726183/131250829-c9de60e3-ef2a-4ea5-961f-eeff862cad14.png)
+
 
 
 # Spice up your life
@@ -8,6 +8,8 @@ This site is targeting people who are foodies and at the same time are health co
 While the site does not necessarily belong to a company, and is not geographically located in a particular area, most of the spices used in cousines originate in south and south east asia, and the art of medicinal use stems from indian ayurvedic discipline. Hence, it is likely that the site is made by spice enthusiasts from India that would like to share the knowlege and practice of ayurveda with interested people worldwide. 
 
 Site does not have commercial angle but is targeting general audience for more healthier diet and lifestile that includes daily use of spices. 
+
+![image](https://user-images.githubusercontent.com/18726183/131258560-c6da0ec4-d152-40dc-a7ba-406ac1d4057b.png)
 
 ## Features
 
