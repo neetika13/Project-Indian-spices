@@ -81,7 +81,7 @@ This site contains several features
 
 ![image](https://user-images.githubusercontent.com/18726183/131259529-2c7d9e41-9a49-49cf-b718-a18d4fbc3106.png)
 
-
+The page was tested after deployment on my own phone, laptop, desktop and ipad for responsiveness and functionality.
 
 
 ## Bugs encountered
@@ -99,19 +99,27 @@ This section describes how the code was deployed
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  The live link can be found here - https://neetika13.github.io/Project-Indian-spices/
+  The live link can be found [here](https://neetika13.github.io/Project-Indian-spices/)
 
 ## Credits 
 
-I used lots of inspiration from the examples given in the [w3 schools][https://www.w3schools.com/] for instance how to create navigation boxes, how to make tables, how to use z-index etc.
+I used lots of inspiration from the examples given in the [w3 schools](https://www.w3schools.com/) for instance how to create navigation boxes, how to make tables, how to use z-index etc.
 
-I also used sniplets of code from the [love running][https://code-institute-org.github.io/love-running-2.0/index.html] example
+I also used sniplets of code from the [love running](https://code-institute-org.github.io/love-running-2.0/index.html) example
 
 ## Technologies used
-- __Main Languages__
--  [HTML5][https://en.wikipedia.org/wiki/HTML5]
--  [CSS][https://en.wikipedia.org/wiki/CSS]
+__Main Languages__
 
-- __Frameworks, Libraries & Programs Used__
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-  [CSS](https://en.wikipedia.org/wiki/CSS)
 
+__Frameworks, Libraries & Programs Used__
+- [Figma](https://www.figma.com/) was used for the initial design stage of the project
+- [Git](https://git-scm.com/) system was used for version contol
+- [Gitpod](https://www.gitpod.io/) was used for developing the code as IDE, commiting and pusing code to repository
+- [Github](https://github.com/) was using for storing repositories, and deployment via github pages
+- [Am I responsive](http://ami.responsivedesign.is/) was used to check the responsiveness of the site, and create a mock-up images to be used for this page
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) validator was used to check the CSS code for errors and warnings
+- [W3C](https://validator.w3.org/) validator was used to check the HTML5 code for errors and warnings
+- Google Chrome's lighthouse was used to check performance, accesibility and tips on how to improve the user experience and performance
 
