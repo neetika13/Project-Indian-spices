@@ -146,47 +146,43 @@ border-bottom-left-radius: 50% 50%;
     }
     
     /*about the farm */
-
-  .details {
-    float: left;
-    position: relative;
-    width: 70%;
-    margin-left:15%;
-    margin-right:15%;
-                   }
-
- .left-about{
-    font-size:21px;
-    color: grey;
-    font-family: 'lato';
-               }
-
- .left-about-heading h2{
-    font-size:30px;
-    clear: both;
-    margin-bottom: 5px;
-    margin-top: 10px;
-    margin-left:0px;
-    font-family:'Oswald';
-    color: orange; 
+/* two columns for the home page images and text */
+.container_text_img {
+    margin-right: 15%;
+    margin-left: 15%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;   
+    
+  }
+  .container_text {
+    max-width: 50%;
     text-align: center;
-                    }
+    font-family: "Oswald";
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
 
- .left-about-heading img{
-    max-width: 50% ;
-    top: 20%;    
-    margin: 10px;
+.container_img {
+    padding-right: 35px;
+    min-width: 100px;
+    
+     }
+
+.container_img img{
+    max-width: 100%;
     border-radius: 5%;
-    float:left;}
-            
- .left-about-heading p{
+    }
+
+ .container_text p{
     font-size:21px;
-    padding-top: 5%;
     line-height: 25px;
     color: grey;
     font-family: 'lato';
-            }
-  
+    text-align: justify;
+  }
+ 
 
 /* About spices page */
 
@@ -232,45 +228,7 @@ border-bottom-left-radius: 50% 50%;
     color: orange;
   }
 
-  /* two columns for the home page images and text */
-  .container_text_img {
-    margin-right: 15%;
-    margin-left: 15%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    color: orange;   
-    
-  }
-  .container_text {
-    max-width: 50%;
-    text-align: center;
-    font-family: "Oswald";
-    margin-bottom: 10px;
-    font-size: 20px;
-    }
-
-.container_img {
-    padding-right: 35px;
-    min-width: 100px;
-    
-     }
-
-.container_img img{
-    max-width: 100%;
-    border-radius: 5%;
-    }
-
- .container_text p{
-    font-size:21px;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
-    text-align: justify;
-  }
-
-
-
+  
   #footer {
     font-size: 25px;
     text-align: center;
@@ -425,9 +383,9 @@ br{ display: none;
    }
 
 .topbox h1{
-    font-size: 35px;
+    font-size: 40px;
     line-height: 0.5;
-    top:55%  
+    top:50%  
    }
 
 .saying{
@@ -455,9 +413,6 @@ br{ display: none;
     width: 100%;
     margin-left: 5px;}
 
-.left-about-heading img{
-    width: 100% ;
-    margin-left:0px;}
 
 .container_img {
     width: 100%;
