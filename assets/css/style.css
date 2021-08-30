@@ -125,8 +125,8 @@ border-bottom-left-radius: 50% 50%;
 }
 
 .web-text img{
-    margin-left: 30%;
-    width: 40%;
+    margin-left: 25%;
+    width: 50%;
     border-radius: 5%;
     }
 
@@ -173,8 +173,8 @@ border-bottom-left-radius: 50% 50%;
                     }
 
  .left-about-heading img{
-    width: 30% ;
-     height: 20%;
+    max-width: 50% ;
+    top: 20%;    
     margin: 10px;
     border-radius: 5%;
     float:left;}
@@ -231,6 +231,45 @@ border-bottom-left-radius: 50% 50%;
     font-size: 25px;
     color: orange;
   }
+
+  /* two columns for the home page images and text */
+  .container_text_img {
+    margin-right: 15%;
+    margin-left: 15%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;   
+    
+  }
+  .container_text {
+    max-width: 50%;
+    text-align: center;
+    font-family: "Oswald";
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
+
+.container_img {
+    padding-right: 35px;
+    min-width: 100px;
+    
+     }
+
+.container_img img{
+    max-width: 100%;
+    border-radius: 5%;
+    }
+
+ .container_text p{
+    font-size:21px;
+    line-height: 25px;
+    color: grey;
+    font-family: 'lato';
+    text-align: justify;
+  }
+
+
 
   #footer {
     font-size: 25px;
@@ -327,8 +366,27 @@ border-bottom-left-radius: 50% 50%;
 
 
 /* Responsive pages */
+@media screen and (max-width: 1200px) {
+    .container_text_img {
+        display: inline-block;
+    }
+    .container_img {
+        width: 60%;
+        margin-left: 20%;
+        padding-right: 20px;
+        
+         }
+    .container_text {
+         max-width: 100%;
+         text-align: center;
+         font-family: "Oswald";
+         margin-bottom: 10px;
+         font-size: 20px;
+         }
 
-@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 700px) {
     
 .hypocratespic{
     display:none;
@@ -367,7 +425,7 @@ br{ display: none;
    }
 
 .topbox h1{
-    font-size: 25px;
+    font-size: 35px;
     line-height: 0.5;
     top:55%  
    }
@@ -400,4 +458,18 @@ br{ display: none;
 .left-about-heading img{
     width: 100% ;
     margin-left:0px;}
+
+.container_img {
+    width: 100%;
+    margin-left: 0%
+}    
+
+.container_img img{
+    width: 100%;
+    border-radius: 5%;
+    
+    }
 }
+ 
+    
+
