@@ -99,7 +99,7 @@ This section describes how the code was deployed
 
   The live link can be found [here](https://neetika13.github.io/Project-Indian-spices/)
   
-  ## Technologies used
+## Technologies used
 __Main Languages__
 
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
