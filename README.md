@@ -103,19 +103,15 @@ This section describes how the code was deployed
 
 ## Credits 
 
-I used lots of inspiration from the examples given in the https://www.w3schools.com/, for instance how to create navigation boxes, how to make tables, how to use z-index etc.
+I used lots of inspiration from the examples given in the [w3 schools][https://www.w3schools.com/] for instance how to create navigation boxes, how to make tables, how to use z-index etc.
 
-I also used sniplets of code from the love running https://code-institute-org.github.io/love-running-2.0/index.html example
+I also used sniplets of code from the [love running][https://code-institute-org.github.io/love-running-2.0/index.html] example
 
-## Images 
-I used imageges from different websites to show spice images, historical references, navbar box background and the contact/register pages backgrounds. 
-* This is the navbar image
-* This is the source for the spices images
-* This is the source for the contact and register pages background
-* This is the source for the historical reference
-* This is the source for the ....
+## Technologies used
+- __Main Languages__
+-  [HTML5][https://en.wikipedia.org/wiki/HTML5]
+-  [CSS][https://en.wikipedia.org/wiki/CSS]
 
-## Code used as inspiration
-* For the navbar idea with highlighting and background changing I used the followin page
+- __Frameworks, Libraries & Programs Used__
 
 
