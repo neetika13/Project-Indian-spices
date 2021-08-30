@@ -98,7 +98,7 @@ border-bottom-left-radius: 50% 50%;
     width: 70%;
     margin-left:15%;
     margin-right:15%;
-    }
+       }
 
 .web-text h1 {
     font-size: 40px;
@@ -272,7 +272,7 @@ border-bottom-left-radius: 50% 50%;
 .signup-form {
     margin: 150px 5% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
     max-width: 330px;
     position: absolute;
     left: 10%;
