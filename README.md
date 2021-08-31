@@ -11,7 +11,7 @@ Site does not have commercial angle but is targeting general audience for more h
 
 ## Features
 
-This site contains several features
+This site contains several features as following:
 
 ### Existing features
 
