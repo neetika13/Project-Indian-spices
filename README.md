@@ -11,7 +11,7 @@ Site does not have commercial angle but is targeting general audience for more h
 
 ## Features
 
-This site contains several features
+This site contains several features as following:
 
 ### Existing features
 
@@ -86,7 +86,7 @@ The page was tested after deployment on my own phone, laptop, desktop and ipad f
 
 Initially the idea was to have a navigation bar with image of spices floating on the top and images/text having to scroll below it which was initially not working. After longer search on the web I realized this works good with ```z-index``` property in CSS for the section I named topbox
 
-In the sign-up form data needs to be sent somwhere. I used the link that was shared previously in the love running example to send the data (https://formdump.codeinstitute.net/). I tried other approaches but I kept getting errors for the action that is supposed to be taken after data submission.
+In the sign-up form data needs to be sent somwhere. I tried other approaches but I kept getting errors for the action that is supposed to be taken after data submission.I removed target blanck and it refreshed the page instaed of taking on some other page.
 
 ## Deployment
 
