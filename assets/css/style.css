@@ -362,6 +362,15 @@ body {
 		margin-bottom: 10px;
 		font-size: 20px;
 	}
+
+    .web-text img {
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 10%;
+	}
+	.vasco-image {
+		width: 100%;
+	}
 	.web-title {
 		position: relative;
 		width: 45%;
@@ -379,9 +388,7 @@ body {
 	br {
 		display: none;
 	}
-	.left-about-heading img {
-		width: 50%;
-	}
+	
 	.web-text img {
 		width: 100%;
 		margin-left: 1%;
