@@ -1,452 +1,442 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	background: lightyellow;
+	text-align: justify;
+}
 
-body{
-    margin: 0;
-    padding: 0;
-    background:lightyellow;
-    text-align: justify;
-    }
 
 /* headings and logo */
-.topbox{
-    z-index: 1;
-    position:relative; 
-    height: 280px;
-    width: 100%;
-    /*align-items: center;
+
+.topbox {
+	z-index: 1;
+	position: relative;
+	height: 280px;
+	width: 100%;
+	/*align-items: center;
     justify-content: center; */
-    background: linear-gradient(0deg, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)), url('../images/Background.jpg') no-repeat;
-    background-size: cover;
-    overflow: hidden;
-          }
-
-.topbox h1{
-    position:relative;
-    color: #ffffff; 
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
-    line-height: 0.9;  
-    font-family: 'Oswald';
-    text-align: center;
-    top: 50%;
-           }
-
-.topbox ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    font-family: arial, sans-serif;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-family: 'Oswald';
-    font-size: large;
-  }
-.topbox li{
-    float: right;
-    position: relative;
+	background: linear-gradient(0deg, rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)), url('../images/Background.jpg') no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
-.topbox li a{  display: block;
-    color: white;
-    text-align: center;
-    padding: 18px 16px;
-    text-decoration: none;
+.topbox h1 {
+	position: relative;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	line-height: 0.9;
+	font-family: 'Oswald';
+	text-align: center;
+	top: 50%;
 }
 
-.topbox li a:hover{background-color: rgb(241, 194, 40);}
-.topbox li a.active { 
-    background-color:orange ; 
+.topbox ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: arial, sans-serif;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Oswald';
+	font-size: large;
 }
 
-.saying{
-    position: absolute;
-    color: #ffffff;  
-    font-size:25px;
-    font-family: 'Oswald';
-    top: 25%;
-    justify-content: left;
-    left: 5%;
-    font-style: italic;
+.topbox li {
+	float: right;
+	position: relative;
 }
 
-.hypocratespic{
-width: 100px;
-position: absolute;
-top:53%;
-left:5%;
-border-top-left-radius: 50% 50%;
-border-top-right-radius: 50% 50%;
-border-bottom-right-radius: 50% 50%;
-border-bottom-left-radius: 50% 50%;
+.topbox li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 18px 16px;
+	text-decoration: none;
+}
+
+.topbox li a:hover {
+	background-color: rgb(241, 194, 40);
+}
+
+.topbox li a.active {
+	background-color: orange;
+}
+
+.saying {
+	position: absolute;
+	color: #ffffff;
+	font-size: 25px;
+	font-family: 'Oswald';
+	top: 25%;
+	justify-content: left;
+	left: 5%;
+	font-style: italic;
+}
+
+.hypocratespic {
+	width: 100px;
+	position: absolute;
+	top: 53%;
+	left: 5%;
+	border-top-left-radius: 50% 50%;
+	border-top-right-radius: 50% 50%;
+	border-bottom-right-radius: 50% 50%;
+	border-bottom-left-radius: 50% 50%;
 }
 
 
 /*webpage content, Ayurveda, spices, benfits, history */
 
-.banner{
-   /* z-index: 2;*/
-    
-    position: relative;
-    color: orange;
-   }
+.banner {
+	/* z-index: 2;*/
+	position: relative;
+	color: orange;
+}
 
-.web-text{
-    width: 70%;
-    margin-left:15%;
-    margin-right:15%;
-       }
+.web-text {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
 
 .web-text h1 {
-    font-size: 40px;
-    width: 100%;
-    position:relative;
-    text-align: center;
-    font-family:'Oswald';
+	font-size: 40px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	font-family: 'Oswald';
 }
 
 .web-text h2 {
-    font-size: 30px;
-    width: 100%;
+	font-size: 30px;
+	width: 100%;
 	text-align: center;
-    font-family:'Oswald';
+	font-family: 'Oswald';
 }
 
 .web-text p {
-    width: 100%;
-    font-size:21px;
-    margin-top:50px;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
+	width: 100%;
+	font-size: 21px;
+	margin-top: 50px;
+	line-height: 25px;
+	color: grey;
+	font-family: 'lato';
 }
 
-.web-text img{
-    margin-left: 25%;
-    width: 50%;
-    border-radius: 5%;
-    }
+.web-text img {
+	margin-left: 25%;
+	width: 50%;
+	border-radius: 5%;
+}
 
-     
- .vasco-image {
-    
-    border-radius: 5%;
-        }
-       
- .vasco-text p{
-    width: 100%;
-    font-size:21px;
-    margin-top:50px;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
-    }
-    
-    /*about the farm */
+.vasco-image {
+	border-radius: 5%;
+}
+
+.vasco-text p {
+	width: 100%;
+	font-size: 21px;
+	margin-top: 50px;
+	line-height: 25px;
+	color: grey;
+	font-family: 'lato';
+}
+
+
+/*about the farm */
+
+
 /* two columns for the home page images and text */
+
 .container_text_img {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 15%;
-    margin-left: 15%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    color: orange;   
-    
-  }
-  .container_text {
-    max-width: 50%;
-    text-align: center;
-    font-family: "Oswald";
-    margin-bottom: 10px;
-    font-size: 20px;
-    }
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 15%;
+	margin-left: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: orange;
+}
+
+.container_text {
+	max-width: 50%;
+	text-align: center;
+	font-family: "Oswald";
+	margin-bottom: 10px;
+	font-size: 20px;
+}
 
 .container_img {
-    padding-right: 35px;
-    min-width: 100px;
-         }
+	padding-right: 35px;
+	min-width: 100px;
+}
 
-.container_img img{
-    max-width: 100%;
-    border-radius: 5%;
-    }
+.container_img img {
+	max-width: 100%;
+	border-radius: 5%;
+}
 
- .container_text p{
-    font-size:21px;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
-    text-align: justify;
-  }
- 
-  .web-title{
-    position: relative;  
-    width: 35%;
-    margin-left:50%;
-    margin-right:15%;  
-    text-align: center;
-    font-family:'Oswald';
-  }
+.container_text p {
+	font-size: 21px;
+	line-height: 25px;
+	color: grey;
+	font-family: 'lato';
+	text-align: justify;
+}
 
-.web-title h2{
-    font-size: 30px;
-  }
+.web-title {
+	position: relative;
+	width: 35%;
+	margin-left: 50%;
+	margin-right: 15%;
+	text-align: center;
+	font-family: 'Oswald';
+}
+
+.web-title h2 {
+	font-size: 30px;
+}
+
 
 /* About spices page */
 
 .column {
-    position:relative;
-    float: left;
-    margin-left: 10%;
-    width: 35%;
-    flex: 50%;
-    padding: 10px;
-    text-align: center;
-    font-family: "Oswald";
-    margin-bottom: 10px;
-    font-size: 20px;
-      }
+	position: relative;
+	float: left;
+	margin-left: 10%;
+	width: 35%;
+	flex: 50%;
+	padding: 10px;
+	text-align: center;
+	font-family: "Oswald";
+	margin-bottom: 10px;
+	font-size: 20px;
+}
 
-.column img{
-    width: 60%;
-    height: auto;
-    border-radius: 30%;
-    background-color: chocolate;
- }
+.column img {
+	width: 60%;
+	height: auto;
+	border-radius: 30%;
+	background-color: chocolate;
+}
 
- .column p{
-    height: 100%;
-    font-size:21px;
-    padding-top: 5%;
-    line-height: 25px;
-    color: grey;
-    font-family: 'lato';
-    text-align: justify;
-  }
+.column p {
+	height: 100%;
+	font-size: 21px;
+	padding-top: 5%;
+	line-height: 25px;
+	color: grey;
+	font-family: 'lato';
+	text-align: justify;
+}
 
-  
-  /* Clear floats after the columns */
-  .row {
-    content: "";
-    display: table;
-    clear: both;
-    text-align: center;
-    font-family: "Oswald";
-    font-size: 25px;
-    color: orange;
-  }
 
-  
-  #footer {
-    font-size: 25px;
-    text-align: center;
-    bottom: 0;
-    height: 50%;
-    margin-right: 30px;
-         } 
-   
+/* Clear floats after the columns */
 
- .social-networks{
-     text-align:center;
-    }
-    
- .social-networks > li{
-     display: inline;
- }
- .social-networks i {
-    font-size: 160%;
-    padding: 3%;
-    color: #e08b0c;
-    }
-     
-  /* Form */
+.row {
+	content: "";
+	display: table;
+	clear: both;
+	text-align: center;
+	font-family: "Oswald";
+	font-size: 25px;
+	color: orange;
+}
 
-  .form-section {
-    position: relative;
-    margin-top: 10px;
-    clear: left;
-    background: url('../images/spices_empty.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    width:100%;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+#footer {
+	font-size: 25px;
+	text-align: center;
+	bottom: 0;
+	height: 50%;
+	margin-right: 30px;
+}
+
+.social-networks {
+	text-align: center;
+}
+
+.social-networks>li {
+	display: inline;
+}
+
+.social-networks i {
+	font-size: 160%;
+	padding: 3%;
+	color: #e08b0c;
+}
+
+
+/* Form */
+
+.form-section {
+	position: relative;
+	margin-top: 10px;
+	clear: left;
+	background: url('../images/spices_empty.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	width: 100%;
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .signup-form {
-    margin: 150px 5% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.9);
-    max-width: 330px;
-    position: absolute;
-    left: 10%;
-    padding: 50px;
+	margin: 150px 5% 0 0;
+	color: #fff;
+	background-color: rgba(60, 60, 60, 0.9);
+	max-width: 330px;
+	position: absolute;
+	left: 10%;
+	padding: 50px;
 }
 
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 30px;
+.signup-form>h2 {
+	color: #fafafa;
+	margin-bottom: 30px;
 }
 
 .text-input {
-    background: transparent;
-    color: #ffffff;
-    width: 100%;
-    height: 20px;
-    margin: 2px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    }
+	background: transparent;
+	color: #ffffff;
+	width: 100%;
+	height: 20px;
+	margin: 2px 0 20px 0;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+}
 
 .text-input:hover {
-    border-color: #f16c6b;
+	border-color: #f16c6b;
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #ff6e19;
-    color: #fafafa;
-    display: block;
+	margin-top: 20px;
+	border-radius: 2px;
+	padding: 15px 32px 15px 32px;
+	text-align: center;
+	font-size: 100%;
+	background-color: #ff6e19;
+	color: #fafafa;
+	display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #e2651c;
+	background-color: #fafafa;
+	color: #e2651c;
 }
 
 .finalmessage {
-    
-    margin-top: 1070px;
-    width: 90%;
-    float: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    position: relative;
-    background-color: blueviolet;
+	margin-top: 1070px;
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: relative;
+	background-color: blueviolet;
 }
 
 
 /* Responsive pages */
+
 @media screen and (max-width: 1200px) {
-    .container_text_img {
-        display: inline-block;
-    }
-    .container_img {
-        width: 60%;
-        margin-left: 20%;
-        padding-right: 20px;
-        
-         }
-    .container_text {
-         max-width: 100%;
-         text-align: center;
-         font-family: "Oswald";
-         margin-bottom: 10px;
-         font-size: 20px;
-         }
-
-    .web-title{
-        position: relative;  
-        width: 45%;
-        margin-left:27%;
-        margin-right:15%;  
-        text-align: center;
-        font-family:'Oswald';
-          }
-
+	.container_text_img {
+		display: inline-block;
+	}
+	.container_img {
+		width: 60%;
+		margin-left: 20%;
+		padding-right: 20px;
+	}
+	.container_text {
+		max-width: 100%;
+		text-align: center;
+		font-family: "Oswald";
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	.web-title {
+		position: relative;
+		width: 45%;
+		margin-left: 27%;
+		margin-right: 15%;
+		text-align: center;
+		font-family: 'Oswald';
+	}
 }
 
 @media screen and (max-width: 700px) {
-    
-.hypocratespic{
-    display:none;
-    }
- 
-br{ display: none;
-    }
-
-.left-about-heading img{
-    width: 50% ;
-    }
-
-.web-text img{
-    width: 100%;
-    margin-left:1%;
-    margin-right:10%;
-    }
-
-.vasco-image {
-    width: 100%;
-  }
-
-.topbox li a:not(:first-child) 
-   {display: none;}
-
-.topbox li a.icon {
-    float: right;
-    display: block;}
-
-.topbox {
-    height: 200px;
-    }
-
-.banner{
-   margin-top: 50px;
-   }
-
-.topbox h1{
-    font-size: 40px;
-    line-height: 0.5;
-    top:50%  
-   }
-
-.saying{
-    font-size:15px;
-    font-family: 'Oswald';
-    margin-top: 100px;
-    justify-content: center;
-    right: 5%;
+	.hypocratespic {
+		display: none;
+	}
+	br {
+		display: none;
+	}
+	.left-about-heading img {
+		width: 50%;
+	}
+	.web-text img {
+		width: 100%;
+		margin-left: 1%;
+		margin-right: 10%;
+	}
+	.vasco-image {
+		width: 100%;
+	}
+	.topbox li a:not(:first-child) {
+		display: none;
+	}
+	.topbox li a.icon {
+		float: right;
+		display: block;
+	}
+	.topbox {
+		height: 200px;
+	}
+	.banner {
+		margin-top: 50px;
+	}
+	.topbox h1 {
+		font-size: 40px;
+		line-height: 0.5;
+		top: 50%
+	}
+	.saying {
+		font-size: 15px;
+		font-family: 'Oswald';
+		margin-top: 100px;
+		justify-content: center;
+		right: 5%;
+	}
+	.column {
+		position: relative;
+		float: left;
+		margin-left: 7%;
+		width: 80%;
+		flex: 80%;
+		padding: 10px;
+		text-align: center;
+		font-family: "Oswald";
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	.column img {
+		width: 100%;
+		margin-left: 5px;
+	}
+	.container_img {
+		width: 100%;
+		margin-left: 0%
+	}
+	.container_img img {
+		width: 100%;
+		border-radius: 5%;
+	}
 }
-
-.column {
-    position:relative;
-    float: left;
-    margin-left: 7%;
-    width: 80%;
-    flex: 80%;
-    padding: 10px;
-    text-align: center;
-    font-family: "Oswald";
-    margin-bottom: 10px;
-    font-size: 20px;
-      }
-
-.column img{
-    width: 100%;
-    margin-left: 5px;}
-
-
-.container_img {
-    width: 100%;
-    margin-left: 0%
-}    
-
-.container_img img{
-    width: 100%;
-    border-radius: 5%;
-    
-    }
-}
- 
-    
-
